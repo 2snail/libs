@@ -6,6 +6,14 @@
   "types": "lib/index.d.ts",
   "unpkg": "dist/index.js",
   "module": "es/index.js",
+  "files": [
+    "dist",
+    "es",
+    "lib",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "test": "jest --watch",
     "build": "father-next build"
