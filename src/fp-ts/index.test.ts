@@ -6,5 +6,5 @@ describe('fp', () => {
 		expect(fp).toHaveProperty('optionT');
 		expect(fp).toHaveProperty('either');
 		expect(fp).toHaveProperty('eitherT');
-	})
+	});
 });
