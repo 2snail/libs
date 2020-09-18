@@ -1,0 +1,23 @@
+{
+  "name": "@2sanil/libs",
+  "version": "0.0.0",
+  "description": "libs import for limit",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2snail/libs.git"
+  },
+  "keywords": [
+    "2sanil",
+    "libs"
+  ],
+  "author": "zhangaz1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2snail/libs/issues"
+  },
+  "homepage": "https://github.com/2snail/libs#readme"
+}
