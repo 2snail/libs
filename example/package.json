@@ -4,7 +4,7 @@
 		"test": "jest --watch"
 	},
 	"dependencies": {
-		"@2snail/libs": "^0.0.6"
+		"@2snail/libs": "^0.0.8"
 	},
 	"devDependencies": {
 		"@types/jest": "^26.0.14",

@@ -13,7 +13,10 @@
   "scripts": {
     "test": "jest --watch",
     "clear": "rm -Rf lib",
-    "build": "tsc -p ./tsconfig.json"
+    "prebuild": "npm run clear",
+    "build": "tsc -p ./tsconfig.json",
+    "prepublish": "npm run build",
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
