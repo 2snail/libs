@@ -1,13 +1,11 @@
 {
   "name": "@2snail/libs",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "libs import for limit",
   "main": "es6/index.js",
   "types": "es6/index.d.ts",
   "files": [
-    "dist",
-    "es",
-    "lib",
+    "es6",
     "LICENSE",
     "README.md",
     "package.json"
