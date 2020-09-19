@@ -1,11 +1,9 @@
 {
   "name": "@2snail/libs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "libs import for limit",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "unpkg": "dist/index.js",
-  "module": "es/index.js",
+  "main": "es6/index.js",
+  "types": "es6/index.d.ts",
   "files": [
     "dist",
     "es",
@@ -16,7 +14,8 @@
   ],
   "scripts": {
     "test": "jest --watch",
-    "build": "father-next build"
+    "clear": "rm -Rf es6",
+    "build": "tsc -p ./tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -37,12 +36,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {
+  "dependencies": {
     "fp-ts": "^2.8.2"
   },
   "devDependencies": {
     "@types/jest": "^26.0.14",
-    "father-next": "^3.0.0-alpha.3",
     "jest": "^26.4.2",
     "ts-jest": "^26.3.0",
     "typescript": "^4.0.2"

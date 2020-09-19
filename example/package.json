@@ -1,0 +1,6 @@
+{
+	"name": "2snail-libs-example",
+	"dependencies": {
+		"@2snail/libs": "^0.0.3"
+	}
+}
