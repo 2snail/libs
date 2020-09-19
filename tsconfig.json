@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"target": "esnext",
+		"target": "ES5",
 		"moduleResolution": "node",
 		"jsx": "preserve",
 		"skipLibCheck": true,
@@ -12,7 +12,7 @@
 		"noImplicitReturns": true,
 		"suppressImplicitAnyIndexErrors": true,
 		"declaration": true,
-		"outDir": "es6",
+		"outDir": "lib",
 	},
 	"include": [
 		"src"

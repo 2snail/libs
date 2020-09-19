@@ -1,4 +1,4 @@
-import * as fp from './index';
+import { fp } from '@2snail/libs';
 
 describe('fp', () => {
 	test('fp', () => {
