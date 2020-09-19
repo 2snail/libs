@@ -1,7 +1,5 @@
 import * as libs from './index';
 
-describe('libs', () => {
-	test('fp', () => {
-		expect(libs).toHaveProperty('fp');
-	});
-});
+import test from '../tests/fp';
+
+test(libs.fp);
