@@ -1,4 +1,4 @@
-import libs from './index';
+import * as libs from './index';
 
 import testFp from '../tests/fp';
 import testRamda from '../tests/ramda';

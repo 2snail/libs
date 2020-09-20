@@ -1,9 +1,7 @@
-import fp from './fp-ts';
-import R from './ramda';
-import rx from './rxjs';
+import fp_ts from './fp-ts';
+import Ramda from './ramda';
+import rxjs from './rxjs';
 
-export default {
-	fp,
-	R,
-	rx,
-};
+export const fp = fp_ts;
+export const R = Ramda;
+export const rx = rxjs;
