@@ -1,5 +1,5 @@
-import { R } from '@2snail/libs';
+import libs from '@2snail/libs';
 
 import test from '../../../tests/ramda';
 
-test(R);
+test(libs.R);

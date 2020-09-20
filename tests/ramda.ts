@@ -1,4 +1,4 @@
-import * as R from 'ramda';
+import R from '../src/ramda';
 
 export default function (r: typeof R) {
 	describe('ramda', () => {

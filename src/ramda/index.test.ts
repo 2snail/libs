@@ -1,4 +1,4 @@
-import * as R from './index';
+import R from './';
 
 import test from '../../tests/ramda';
 

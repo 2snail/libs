@@ -1,4 +1,4 @@
-import * as FP from 'fp-ts/lib/index';
+import FP from '../src/fp-ts';
 
 export default function (fp: typeof FP) {
 	describe('fp', () => {

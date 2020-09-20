@@ -1,2 +1,9 @@
-export * as fp from './fp-ts';
-export * as R from './ramda';
+import fp from './fp-ts';
+import R from './ramda';
+import rx from './rxjs';
+
+export default {
+	fp,
+	R,
+	rx,
+};

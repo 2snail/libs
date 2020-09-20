@@ -1,4 +1,4 @@
-import * as fp from './index';
+import fp from './';
 
 import test from '../../tests/fp';
 
