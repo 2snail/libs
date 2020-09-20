@@ -1,5 +1,7 @@
 import * as libs from './index';
 
-import test from '../tests/fp';
+import testFp from '../tests/fp';
+import testRamda from '../tests/ramda';
 
-test(libs.fp);
+testFp(libs.fp);
+testRamda(libs.R);
