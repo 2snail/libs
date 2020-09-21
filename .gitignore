@@ -6,3 +6,5 @@ dist
 lib
 es
 es6
+
+coverage
