@@ -16,6 +16,8 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![License][license-shield]][license-url]
 
+![tools][logo-url]
+
 ## 常用库
 
 ### Ready:
@@ -70,10 +72,10 @@ import one:
 import fp from '@2snail/libs/fp'
 ```
 
-## Structor & [Customize](./customize.md)
+## Structor & [Customize][customize-url]
 
 ```md
-![Customize](./customize.md)
+![Customize][customize-url]
 ```
 
 ## License
@@ -108,5 +110,5 @@ Visited: ![Visitor Count](https://profile-counter.glitch.me/2snail-libs/count.sv
 [license-shield]: https://img.shields.io/github/license/2snail/libs.svg
 [license-url]: https://github.com/2snail/libs/blob/master/LICENSE
 
-[customize-gh-url]: https://github.com/2snail/libs/blob/master/customize.md
 [customize-url]: ./customize.md
+[logo-url]: ./images/libs-010.jpg
