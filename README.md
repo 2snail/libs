@@ -81,6 +81,9 @@ import fp from '@2snail/libs/fp'
 (MIT)
 
 
+Visited: ![Visitor Count](https://profile-counter.glitch.me/2snail-libs/count.svg)
+
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://github.com/2snail/libs -->
