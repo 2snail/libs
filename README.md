@@ -74,7 +74,7 @@ import fp from '@2snail/libs/fp'
 
 ```md
 ```
-![Customize](https://github.com/2snail/libs/blob/master/customize.md)
+[![Customize](https://github.com/2snail/libs/blob/master/customize.md)](https://github.com/2snail/libs/blob/master/customize.md)
 
 ## License
 
