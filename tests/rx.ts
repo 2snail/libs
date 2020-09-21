@@ -1,6 +1,6 @@
-import rxjs from '../src/rx';
+import Rx from '../src/rx';
 
-export default function (rx: typeof rxjs) {
+export default function (rx: typeof Rx) {
 	describe('rxjs', () => {
 		test('scan', (cb: Function) => {
 			rx.range(1, 5)

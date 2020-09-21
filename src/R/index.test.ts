@@ -1,5 +1,5 @@
 import R from './';
 
-import test from '../../tests/ramda';
+import test from '../../tests/R';
 
 test(R);

@@ -1,9 +1,9 @@
 import * as libs from './index';
 
 import testFp from '../tests/fp';
-import testRamda from '../tests/ramda';
-import testRxjs from '../tests/rxjs';
+import testR from '../tests/R';
+import testRx from '../tests/rx';
 
 testFp(libs.fp);
-testRamda(libs.R);
-testRxjs(libs.rx)
+testR(libs.R);
+testRx(libs.rx)

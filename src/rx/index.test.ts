@@ -1,5 +1,5 @@
-import rxjs from './';
+import rx from './';
 
-import test from '../../tests/rxjs';
+import test from '../../tests/rx';
 
-test(rxjs);
+test(rx);
