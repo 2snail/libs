@@ -1,6 +1,6 @@
-import fp_ts from './fp-ts';
-import Ramda from './ramda';
-import rxjs from './rxjs';
+import fp_ts from './fp';
+import Ramda from './R';
+import rxjs from './rx';
 
 export const fp = fp_ts;
 export const R = Ramda;

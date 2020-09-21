@@ -1,4 +1,4 @@
-import rxjs from '../src/rxjs';
+import rxjs from '../src/rx';
 
 export default function (rx: typeof rxjs) {
 	describe('rxjs', () => {

@@ -1,0 +1,5 @@
+{
+	"name": "@2snail/libs/R",
+	"typings": "../lib/R/index.d.ts",
+	"main": "../lib/R/index.js"
+}

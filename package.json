@@ -1,11 +1,14 @@
 {
   "name": "@2snail/libs",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "libs import for limit",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib",
+    "fp",
+    "R",
+    "rx",
     "LICENSE",
     "README.md",
     "package.json"

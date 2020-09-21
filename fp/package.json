@@ -1,0 +1,5 @@
+{
+	"name": "@2snail/libs/fp",
+	"typings": "../lib/fp/index.d.ts",
+	"main": "../lib/fp/index.js"
+}
