@@ -70,10 +70,10 @@ import one:
 import fp from '@2snail/libs/fp'
 ```
 
-## Structor & [Customize](customize-url)
+## Structor & [Customize]([customize-url])
 
 ```md
-[![Customize](customize-url)](customize-url)
+[![Customize]([customize-url])]([customize-url])
 ```
 
 ## License
