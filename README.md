@@ -73,7 +73,7 @@ import fp from '@2snail/libs/fp'
 ## Structor & [Customize](./customize.md)
 
 ```md
-[![Customize]([customize-url])]([customize-url])
+[![Customize](./customize.md)](./customize.md)
 ```
 
 ## License
