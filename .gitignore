@@ -1,6 +1,8 @@
 node_modules
 
 *.lock
+*-lock.json
+*.log
 
 dist
 lib
