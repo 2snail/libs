@@ -41,9 +41,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
       "prettier --write"
@@ -58,6 +55,7 @@
     "rxjs": "^6.6.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
     "@types/jest": "^26.0.14",
     "@types/ramda": "^0.27.17",
     "commitizen": "^4.2.1",
