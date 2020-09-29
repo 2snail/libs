@@ -1,6 +1,6 @@
 {
   "name": "@2snail/libs",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "libs import for limit",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,7 +19,8 @@
     "clear": "rm -Rf lib",
     "prebuild": "npm run clear",
     "build": "tsc -p ./tsconfig.json",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "standard-version": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -57,6 +58,7 @@
     "lint-staged": "^10.4.0",
     "prettier": "^2.1.2",
     "semantic-release": "^17.1.2",
+    "standard-version": "^9.0.0",
     "ts-jest": "^26.3.0",
     "typescript": "^4.0.2"
   }
