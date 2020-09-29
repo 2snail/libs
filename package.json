@@ -20,7 +20,8 @@
     "prebuild": "npm run clear",
     "build": "tsc -p ./tsconfig.json",
     "prepublish": "npm run build",
-    "publish": "npm publish"
+    "publish": "npm publish",
+    "release": "sematic-release"
   },
   "repository": {
     "type": "git",
