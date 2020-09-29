@@ -40,14 +40,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "lint-staged": {
-    "*.{js,jsx,less,md,json}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "prettier --parser=typescript --write"
-    ]
-  },
   "dependencies": {
     "fp-ts": "^2.8.2",
     "ramda": "^0.27.1",
