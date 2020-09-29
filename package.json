@@ -19,8 +19,6 @@
     "clear": "rm -Rf lib",
     "prebuild": "npm run clear",
     "build": "tsc -p ./tsconfig.json",
-    "prepublish": "npm run build",
-    "publish": "npm publish",
     "release": "semantic-release"
   },
   "repository": {

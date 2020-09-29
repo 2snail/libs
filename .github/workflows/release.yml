@@ -15,6 +15,7 @@ jobs:
         with:
           node-version: '14.x'
       - run: npm install
+      - run: npm run build
       - name: Release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
