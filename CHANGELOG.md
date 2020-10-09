@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/2snail/libs/compare/v1.2.0...v1.3.0) (2020-10-09)
+
+
+### Bug Fixes
+
+* add @semantic-release/release-note-generate ([2e47d3b](https://github.com/2snail/libs/commit/2e47d3bff5118fef72a7af17e9db520574dae3b8))
+
+
+### Features
+
+* test release ([8211976](https://github.com/2snail/libs/commit/8211976ce0003e323a466f1983238bc01a1cf60d))
+
 # [1.2.0-alpha.3](https://github.com/2snail/libs/compare/v1.2.0-alpha.2...v1.2.0-alpha.3) (2020-10-09)
 
 ### Bug Fixes
