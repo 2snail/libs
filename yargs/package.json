@@ -1,0 +1,5 @@
+{
+  "name": "@2snail/libs/yargs",
+  "typings": "../lib/yargs/index.d.ts",
+  "main": "../lib/yargs/index.js"
+}
