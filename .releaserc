@@ -10,4 +10,5 @@
     "@semantic-release/git",
     "@semantic-release/github"
   ],
+  "preset": "angular"
 }
