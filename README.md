@@ -1,6 +1,6 @@
 # 2snail-libs
 
-> 引入第三方libs的入口,原样或加工后重新导出,再在其他项目中使用,而非每个项目都直接使用第三方库.
+> 引入第三方 libs 的入口,原样或加工后重新导出,再在其他项目中使用,而非每个项目都直接使用第三方库.
 
 [![Version][version-shield]][npm-url]
 [![Downloads][downloads-shield]][npm-url]
@@ -25,6 +25,7 @@
 - [x] fp-ts
 - [x] ramda
 - [x] rxjs
+- [x] yargs
 
 ### Todo:
 
@@ -40,11 +41,13 @@
 ## Installation
 
 use npm:
+
 ```sh
 npm i -S @snail/libs
 ```
 
 or yarn:
+
 ```sh
 yarn add @snail/libs
 ```
@@ -52,14 +55,16 @@ yarn add @snail/libs
 ## Useage
 
 import all:
+
 ```ts
-import * as libs from '@2snail/libs';
+import * as libs from "@2snail/libs";
 // libs: { fp, R, rx, ...};
 ```
 
 import multi:
+
 ```ts
-import { fp, R, rx } from '@2snail/libs';
+import { fp, R, rx } from "@2snail/libs";
 // fp: fp-ts
 // R: ramda
 // rx: rxjs
@@ -67,9 +72,10 @@ import { fp, R, rx } from '@2snail/libs';
 ```
 
 import one:
+
 ```ts
 // fp-ts:
-import fp from '@2snail/libs/fp'
+import fp from "@2snail/libs/fp";
 ```
 
 ## Structor & [Customize][customize-url]
@@ -82,13 +88,11 @@ import fp from '@2snail/libs/fp'
 
 (MIT)
 
-
 Visited: ![Visitor Count](https://profile-counter.glitch.me/2snail-libs/count.svg)
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://github.com/2snail/libs -->
+
 [npm-url]: https://www.npmjs.com/package/@2snail/libs
 [version-shield]: https://img.shields.io/npm/v/@2snail/libs.svg
 [downloads-shield]: https://img.shields.io/npm/dm/@2snail/libs.svg
@@ -109,6 +113,5 @@ Visited: ![Visitor Count](https://profile-counter.glitch.me/2snail-libs/count.sv
 [contributors-shield]: https://img.shields.io/github/contributors/2snail/libs.svg
 [license-shield]: https://img.shields.io/github/license/2snail/libs.svg
 [license-url]: https://github.com/2snail/libs/blob/master/LICENSE
-
 [customize-url]: ./customize.md
 [logo-url]: ./images/libs-010.jpg

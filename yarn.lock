@@ -828,7 +828,7 @@
     semver "^7.1.2"
     tempy "^0.5.0"
 
-"@semantic-release/release-notes-generator@^9.0.0":
+"@semantic-release/release-notes-generator@^9.0.0", "@semantic-release/release-notes-generator@^9.0.1":
   version "9.0.1"
   resolved "https://registry.npm.taobao.org/@semantic-release/release-notes-generator/download/@semantic-release/release-notes-generator-9.0.1.tgz#732d285d103064f2a64f08a32031551ebb4f918b"
   integrity sha1-cy0oXRAwZPKmTwijIDFVHrtPkYs=
