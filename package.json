@@ -1,6 +1,6 @@
 {
   "name": "@2snail/libs",
-  "version": "1.2.0-alpha.3",
+  "version": "1.2.0",
   "description": "libs import for limit",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
