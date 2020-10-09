@@ -2,5 +2,13 @@
   "branches": [
     { "name": "master", "channel": "latest", "prerelease": false },
     { "name": "dev", "channel": "next", "prerelease": "alpha" }
-  ]
+  ],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    "@semantic-release/git",
+    "@semantic-release/github"
+  ],
+  "preset": "angular"
 }
